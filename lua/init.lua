@@ -1,8 +1,9 @@
 local M = {}
 
-M.tabAsWork = {
+M.TabAsWorkspace = {
     buffers = {},
     tabs = {},
+    tab_with_buffers = {}
 }
 
 function M.init()
